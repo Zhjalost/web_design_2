@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Art 444 Student" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="refresh" content="150" />
+    <title>Welcome to my new website!</title>
+    <!-- <link rel="stylesheet" href="/public/css/reset.css" /> -->
+    <link rel="stylesheet" href="./public/css/styles.css" />
+    <link rel="stylesheet" href="./public/css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div id="navbar">
+        <div id="navbar_brand">
+          <h1>Ray Brown</h1>
+        </div>
+        <div id="links">
+          <ul id="navbar_links">
+            <li class="navbar_link">
+              <a href="#about">About</a>
+            </li>
+            <li class="navbar_link">
+              <a href="gallery">Gallery</a>
+            </li>
+            <li class="navbar_link">
+              <a href="skills">Skills</a>
+            </li>
+            <li class="navbar_link">
+              <a href="faq">FAQ</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--might not be liked-->
+        <div class="spacer"></div>
+
+        <div id="dropdown">
+          <button id="dropdown_btn">&#8801;</button>
+          <ul id="dropdown_links">
+            <li class="dropdown_link">About</li>
+            <li class="dropdown_link">Gallery</li>
+            <li class="dropdown_link">Skills</li>
+            <li class="dropdown_link">Facts</li>
+            <li class="dropdown_link">Footer</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN SECTION -->
+    <main id="top">
+      <div id="main_wrapper">
+        <!-- MAIN HEADER -->
+        <section id="header" class="header">
+          <div class="card">
+            <div class="card_header">
+              <h2>Hello!</h2>
+            </div>
+          </div>
+        </section>
+
+        <!-- THEME TOGGLE -->
+        <button id="theme_toggle" class="fab">
+          <!--Moon svg-->
+          <svg
+            class="icon"
+            ,
+            viewbox="0 0 64 64"
+            width="24"
+            height="24"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path
+              fill="currentcolor"
+              ,
+              d="
+           M32 2
+           A30 30 0 1 0 62 32
+           A24 24 0 1 1 32 2
+            "
+            />
+          </svg>
+
+          <!--Sun SVG-->
+
+          <svg
+            class="icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            width="24"
+            height="24"
+            aria-hidden="true"
+          >
+            <!-- Central Circle -->
+            <circle cx="32" cy="32" r="14" fill="currentColor" />
+
+            <!-- Rays -->
+            <g stroke="currentColor" stroke-width="5" stroke-linecap="round">
+              <!-- Y lines -->
+              <line x1="32" y1="0" x2="32" y2="10" />
+              <line x1="32" y1="54" x2="32" y2="64" />
+              <!-- X Rays -->
+              <line x1="0" y1="32" x2="10" y2="32" />
+              <line x1="54" y1="32" x2="64" y2="32" />
+              <!-- Positive Sloped Rays -->
+              <line x1="10" y1="10" x2="16" y2="16" />
+              <line x1="48" y1="48" x2="54" y2="54" />
+              <!-- Negative Sloped Rays -->
+              <line x1="10" y1="54" x2="16" y2="48" />
+              <line x1="48" y1="16" x2="54" y2="10" />
+            </g>
+          </svg>
+        </button>
+
+        <!-- ABOUT SECTION -->
+
+        <section id="about">
+          <div class="card">
+            <div class="card_header">
+              <h2>About</h2>
+            </div>
+            <div class="card_content center_text">
+              <p>
+                I am a graphics design major at SDSU in my final semester.
+                Gathering certification in I.T. on the side for a career I would
+                enjoy. Would like ot bridge my passion for building and
+                designing custom computers with my graphic design skills to
+                customize PC cases as a side gig.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+          <div class="card">
+            <div class="card_header">
+              <h2>Skills</h2>
+            </div>
+
+            <div id="skills_list" class="card_content">
+              <div class="skill">
+                <h2>Logo design</h2>
+              </div>
+              <div class="skill">
+                <h2>Illustrator</h2>
+              </div>
+              <div class="skill">
+                <h2>Photoshop</h2>
+              </div>
+              <div class="skill">
+                <h2>3D Modeling</h2>
+              </div>
+              <div class="skill">
+                <h2>Web Design</h2>
+              </div>
+              <div class="skill">
+                <h2>Coding</h2>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section id="gallery">
+          <div class="card xl">
+            <div class="card_header">
+              <h2>My Work</h2>
+            </div>
+            <div id="gallery_grid" class="card_content">
+              <img class="gallery_img" src="./public/img/PLACEHOLDER_.jpg" />
+              <img class="gallery_img" src="./public/img/PLACEHOLDER_.jpg" />
+              <img class="gallery_img" src="./public/img/PLACEHOLDER_.jpg" />
+              <img class="gallery_img" src="./public/img/PLACEHOLDER_.jpg" />
+              <img class="gallery_img" src="./public/img/PLACEHOLDER_.jpg" />
+              <img class="gallery_img" src="./public/img/PLACEHOLDER_.jpg" />
+              <img class="gallery_img" src="./public/img/PLACEHOLDER_.jpg" />
+              <img class="gallery_img" src="./public/img/PLACEHOLDER_.jpg" />
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section id="faq">
+          <div class="card">
+            <div class="card_header">
+              <h2>FAQ's</h2>
+            </div>
+            <div class="card_content center_text">
+              <div class="faq_sec">
+                <h3>When will you be graduating from SDSU?</h3>
+                <p>Spring 2025 with a Bachelors in Graphic Design!</p>
+                <h3>What do you have planned for after graduation?</h3>
+                <p>
+                  I would like to pursue a career in branding or logo design, or
+                  possibly break into teaching.
+                </p>
+                <h3>What was your favorite class you took at SDSU?</h3>
+                <p>
+                  Furniture design and jewelry metal working were very enjoyable
+                  as i like working with my hands and designing things.
+                </p>
+                <h3>What work are you most proud producing at SDSU?</h3>
+                <p>
+                  I did a rebranding for O'Brien's pub, was a large learning
+                  experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+      <div id="footer">
+        <a href="#top">Back to Top</a>
+        <p>Ray Brown. Copywrite © 2025, All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="./public/main.js"></script>
+  </body>
+</html>
